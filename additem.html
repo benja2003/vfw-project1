@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+	<!-- Elizabeth Adcock -->
+	<!-- VFW 1212 -->
+	<!-- Date Tracker -->
+	<!-- Add Item Page -->
+
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="Date Tracker" />
+	<meta name="keywords" content="birthdays, holidays, dates" />
+	<meta name="robots" content="index, follow" />
+	<meta name="viewport" content="user-scalable=no, width=device-width" />
+	<meta name="viewport" content="target-densitydpi=device-dpi" />
+	<meta name="HandHeldFriendly" content="True" />
+	<meta name="MobileOptimized" content="320" />
+
+    <title>Date Tracker </title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+
+</head>
+	<body>
+    	<header><h1 id="test">Date Tracker</h1></header>
+    	    <nav>
+    		<fieldset>
+    			<a href="#" id="displayLink">Display</a> 
+    			<a href="#" id="clearlink">Clear</a> 
+    			<a href ="additem.html" id="addNew" style="display:none;">Add New Item</a>
+    		</fieldset>
+    		</nav>
+    	<form action="#" method="post" id="eventform"/>
+   	<fieldset id="eventFieldset">
+    		<legend>Add a Date</legend>
+    		<ul>
+    			<label for="name">Important Date :</label><br><input type="text" id="ename">
+    			<br>
+    			<label for="date">Date :</label><br><input type="date" id="edate">
+    		</ul>
+    	<br>
+    	<br>
+    		<br>
+    		<ul><legend>Date Details</legend></ul>
+	  <fieldset>
+    			<ul><label for="group"><legend>
+Select a group:</legend></label><input type="radio" checked value="Family" id="family" name="relation"/>
+				  <label for="family">Family</label><br>
+    					<input type="radio" checked value="Friend" id="friend" name="relation"/>
+    						<label for="friend">Friend</label><br>
+    					<input type="radio" checked value="coworker" id="coworker" name="relation"/> 
+    						<label for="coworker">Co-Worker</label><br>
+    					<input type="radio" checked value="Other" id="Other" name="relation"/> 
+    						<label for="Other">Other</label><br>
+   				</fieldset>
+		<br>
+    		<ul><legend>More Event Details</legend></ul>
+    		<br><ul><legend>    				
+	</fieldset>
+    	<fieldset>
+		  <ul id="select"><label for="groups">Add Event type</label><br  />
+	</fieldset>
+    		<br>
+    		<ul><legend>Comments</legend></ul>
+    		<fieldset>
+    			<label for="notes">Notes about event:</label><textarea id="comments"></textarea>
+    		</fieldset>
+    	</fieldset>
+    	<br>
+    		<input type="submit" id="submit" value="Submit Event" /><br />
+    	</form>	
+    	<script src="main.js" type="text/javascript"></script>
+	</body>
+</html>
