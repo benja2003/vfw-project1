@@ -1,0 +1,61 @@
+/* Activity 2 */
+/* Visual Frameworks 1212 */
+/* Elizabeth Adcock */
+/* November 26, 2012 */
+
+
+html {
+    background-color: #A3A3C2;
+    color: #FBFBFB;
+	font-family: Georgia, serif;
+	border: 2px #FFFFFF;
+	outline: 1px dotted #FFFFFF;
+}
+a{ outline: 1px dotted line;}
+a:hover{color:black; outline:none;}
+
+h1{
+	color: #FFFFFF;
+	font-family: Georgia, serif;
+	margin: 10px 5px;
+	border: 2px solid #FFFFFF;
+	padding: 5px;
+	background: #5E5E82;
+	text-align: center;
+}
+h2{
+	color: #FFFFFF;
+	font-family: Georgia, serif;
+	margin: 10px 20px;
+	border: 2px solid #FFFFFF;
+	padding: 10px;
+	background: #5E5E82;
+	text-align: center;
+}	
+legend{
+    color: #4B327D;
+    text-align: center;
+}
+fieldset{
+	border: 1px solid FFFFFF;
+	margin: 10px;
+	text-align: center;
+}
+ul{
+	color: #4B327D;
+	text-align: center;
+}
+li{
+	color: #4B327D;
+	text-align: center;
+}
+nav{
+	color: #99CCFF
+	font-style: italic;
+	font-family: Georgia, serif;
+	font: 14px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
